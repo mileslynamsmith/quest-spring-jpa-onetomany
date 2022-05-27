@@ -19,6 +19,10 @@ public class Wizard {
     private String biography;
     private boolean muggle;
 
+    @ManyToOne
+    @JoinColumn (name = "school_id")
+    private School school; 
+    
     public Wizard() {
     }
 
