@@ -81,4 +81,12 @@ public class Wizard {
     public void setMuggle(boolean muggle) {
         this.muggle = muggle;
     }
+
+    public List<School> getSchool() {
+        return school;
+    }
+    
+    public void setSchool(List<School> school) {
+        this.school = school;
+    }
 }

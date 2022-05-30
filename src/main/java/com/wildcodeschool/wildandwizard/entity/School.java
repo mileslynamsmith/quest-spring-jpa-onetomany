@@ -52,4 +52,11 @@ public class School {
     public void setCountry(String country) {
         this.country = country;
     }
+    public List<Wizard> getWizards() {
+        return wizards;
+    }
+    
+    public void setWizards(List<Wizard> wizards) {
+        this.wizards = wizards;
+    }
 }
